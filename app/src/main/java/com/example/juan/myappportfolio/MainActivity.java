@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
     /** Called when btn_makeAppMaterial is touched */
     public void makeAppMaterialLoad(View view) {
-        Toast.makeText(getApplicationContext(), "Make App Material Launching Launching!",
+        Toast.makeText(getApplicationContext(), "Make App Material Launching!",
                 Toast.LENGTH_LONG).show();
     }
     /** Called when btn_goUbiquitous is touched */

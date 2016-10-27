@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ButtonAttributes">
+        <item name="android:layout_width">@dimen/btn_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginBottom">@dimen/btn_margin</item>
+        <item name="android:paddingLeft">@dimen/btn_paddingLeftRight</item>
+        <item name="android:paddingRight">@dimen/btn_paddingLeftRight</item>
+    </style>
+
 </resources>
