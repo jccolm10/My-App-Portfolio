@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juan.myappportfolio.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/nanoDegree_txtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_makeAppMaterial"
+            android:layout_alignRight="@+id/btn_makeAppMaterial"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:text="My Nanodegree Apps!"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_makeAppMaterial"
+            android:layout_alignRight="@+id/btn_makeAppMaterial"
+            android:layout_below="@+id/nanoDegree_txtv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/menu_movie_btn"
+            android:textColor="@color/textColorWhite"
+            android:onClick="movieLoad"/>
+
+        <Button
+            android:id="@+id/btn_stockHawk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_makeAppMaterial"
+            android:layout_alignRight="@+id/btn_makeAppMaterial"
+            android:layout_below="@+id/btn_movie"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/menu_stockHawk_btn"
+            android:textColor="@color/textColorWhite"
+            android:onClick="stockHawkLoad"/>
+
+        <Button
+            android:id="@+id/btn_buildItBigger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_makeAppMaterial"
+            android:layout_alignRight="@+id/btn_makeAppMaterial"
+            android:layout_below="@+id/btn_stockHawk"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/menu_buildItBetter_btn"
+            android:textColor="@color/textColorWhite"
+            android:onClick="buildItBiggerLoad"/>
+
+        <Button
+            android:id="@+id/btn_makeAppMaterial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_buildItBigger"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/menu_makeAppMaterial_btn"
+            android:textColor="@color/textColorWhite"
+            android:onClick="makeAppMaterialLoad"/>
+
+        <Button
+            android:id="@+id/btn_goUbiquitous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_makeAppMaterial"
+            android:layout_alignRight="@+id/btn_makeAppMaterial"
+            android:layout_below="@+id/btn_makeAppMaterial"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/menu_goUbiquitous_btn"
+            android:textColor="@color/textColorWhite"
+            android:onClick="goUbiquitousLoad"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_makeAppMaterial"
+            android:layout_alignRight="@+id/btn_makeAppMaterial"
+            android:layout_below="@+id/btn_goUbiquitous"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/btn_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/menu_capstone_btn"
+            android:textColor="@color/textColorWhite"
+            android:onClick="capstoneLoad"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
